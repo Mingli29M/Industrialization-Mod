@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.mingli29.industrialization.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
