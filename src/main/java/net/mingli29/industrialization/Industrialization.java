@@ -2,6 +2,7 @@ package net.mingli29.industrialization;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mingli29.industrialization.block.ModBlocks;
 import net.mingli29.industrialization.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +21,7 @@ public class Industrialization implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
